@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  protocol-puzzle:
+    build: .
+    container_name: protocol-puzzle
+    ports:
+      - "8080:80"
+    environment:
+      # Optional: Inject API Key if you want it pre-loaded.
+      # Users can also enter it in the UI Settings.
+      - API_KEY=${API_KEY}
+    restart: unless-stopped

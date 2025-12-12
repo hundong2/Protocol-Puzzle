@@ -1,0 +1,5 @@
+{
+  "name": "Protocol Puzzle",
+  "description": "A visual block-based parser generator. Define binary/text protocols using a puzzle-like interface and generate high-performance parsing code for C++, C#, and Python. Includes a layout architecting README and a live simulation test lab.",
+  "requestFramePermissions": []
+}
